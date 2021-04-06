@@ -2,10 +2,10 @@
 FROM node:12.16.3
 
 # Copy the current directory into the Docker image
-COPY . /ubahn-skill-record-processor
+COPY . /u-bahn-user-skills-processor
 
 # Set working directory for future use
-WORKDIR /ubahn-skill-record-processor
+WORKDIR /u-bahn-user-skills-processor
 
 # Install the dependencies from package.json
 RUN npm install
